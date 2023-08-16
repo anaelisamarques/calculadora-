@@ -1,0 +1,47 @@
+.form-control:disabled{
+    text-align: right;
+    font-size: 20px;
+    height: 10%;
+}
+
+.calculadora{
+    width: 300px;
+    height: 400px;
+    background-color: rgb(13, 90, 80);
+    box-shadow: 1px 1px 5px black;
+    border-radius: 15px;
+    
+}
+
+button.form-control{
+    height: 50px;
+    border: 2px solid white;
+    font-weight: 500;
+}
+
+.equal{
+    height: 110px !important; 
+}
+
+.restante{
+    width: 260px;
+    position: absolute;
+    bottom: 133px;
+}
+
+button.form-control:hover{
+    height: 50px;
+    box-shadow: none;
+    background-color: rgb(212, 212, 212);
+    opacity: 50%;
+    border: none;
+}
+
+button.form-control:focus{
+    height: 50px;
+    box-shadow: none;
+    background-color: gray;
+    opacity: 50%;
+    border: none;
+}
+

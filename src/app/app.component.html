@@ -1,0 +1,58 @@
+<div #container class="calculadora containier mx-auto mt-5 p-4">
+    <input  #result type="text" class="form-control bg-light resultado" disabled> 
+    <div class="row g-2 mt-3">
+      <div class="col-6">
+        <button (click)="calcular('acao', 'c')" class="form-control" type="button">C</button>
+      </div>
+      <div class="col-3">
+        <button (click)="calcular('valor', 1)" class="form-control" type="button">1</button>
+      </div>
+      <div class="col-3">
+        <button (click)="calcular('acao', '+')" class="form-control" type="button">+</button>
+      </div>
+      <div class="col-3">
+        <button (click)="calcular('valor', 2)" class="form-control" type="button">2</button>
+      </div>
+      <div class="col-3">
+        <button (click)="calcular('valor', 3)" class="form-control" type="button">3</button>
+      </div>
+      <div class="col-3">
+        <button (click)="calcular('valor', 4)" class="form-control" type="button">4</button>
+      </div>
+      <div class="col-3">
+        <button (click)="calcular('acao', '-')" class="form-control" type="button">-</button>
+      </div>
+      <div class="col-3">
+        <button (click)="calcular('valor', 5)" class="form-control" type="button">5</button>
+      </div>
+      <div class="col-3">
+        <button (click)="calcular('valor', 6)" class="form-control" type="button">6</button>
+      </div>
+      <div class="col-3">
+        <button (click)="calcular('valor', 7)" class="form-control" type="button">7</button>
+      </div>
+      <div class="col-3">
+        <button (click)="calcular('acao', '*')" class="form-control" type="button">x</button>
+      </div>
+      <div class="col-3">
+        <button (click)="calcular('valor', 8)" class="form-control" type="button">8</button>
+      </div>
+      <div class="col-3">
+        <button (click)="calcular('valor', 9)" class="form-control" type="button">9</button>
+      </div>
+      <div class="col-3">
+        <button (click)="calcular('valor', 0)" class="form-control" type="button">0</button>
+      </div>
+      <div class="col-3">
+        <button (click)='equal()' class="equal form-control" type="button">=</button>
+      </div>
+    </div>
+    <div class="restante row g-2">
+      <div class="col-6">
+        <button (click)="calcular('acao', '/')" class="form-control" type="button">/</button>
+      </div>
+      <div class="col-3">
+        <button (click)="calcular('valor', '.')" class="form-control" type="button">.</button>
+      </div>
+    </div>
+</div>
